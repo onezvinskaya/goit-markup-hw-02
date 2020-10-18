@@ -12,6 +12,7 @@
 }
 
 body {
+  font-family: Roboto, sans-serif;
   color: var(--main-text-cl);
   background-color: var(--light-bg);
 }
@@ -24,7 +25,9 @@ ul {
 
 }
 .logo-header {
-    color: var(--black);
+font-family: Raleway, sans-serif;
+font-size: 26px;
+color: var(--black);
 }
 
 .logo-colored {
@@ -32,6 +35,9 @@ ul {
 }
 
 .site-nav a {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
     color: var(--black);
 }
 .site-nav a:hover {
@@ -40,31 +46,68 @@ ul {
 .site-nav a:focus {
     color: var(--accent-cl);
 }
+.site-nav .link.current {
+    color: var(--accent-cl);
+}
 .contacts-header a {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
     color: var(--gray);
 }
 .contacts-header a:hover {
     color: var(--blue);
 }
-
+.contacts-header a:focus {
+    color: var(--blue);
+}
 .main-section {
     color: var(--white-bg);
     background-color: var(--dark-bg);
 }
 
-.main-title{
-
+.main-title {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 44px;
+    text-transform: uppercase;
 }
-.btn {
-
+.button-primery {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: var(--black);
+    background-color: var(--light-grey-bg);
 }
-.advantages-list {
+.button:hover {
+color: var(--white);
+    background-color: var(--accent-cl);
+    }
+.button:focus {
+color: var(--white);
+    background-color: var(--accent-cl);
+    }
+    
+    .button-secondary {
+        color: var(--black);
+    background-color: var(--light-grey-bg);
+    }
+
+    .advantages-list {
+
 background-color: var(--light-bg);
 }
 .advantages-title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
     color: var(--black);
 }
 .advantages-item {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
     color: var(--main-text-cl);
 }
 
@@ -72,24 +115,38 @@ background-color: var(--light-bg);
     background-color: var(--light-bg);
 }
 .directions-title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
     color:  var(--black);
 }
 .team-section {
     background-color: var(--light-grey-bg);
 }
 .team-title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
     color: var(--black);
 }
 .team-member {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
     color: var(--black);
 }
 .team-item {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
     color: var(--main-text-cl);
 }
 .footer {
     background-color: var(--dark-bg);
 }
 .logo-footer {
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
     color: var(--white);
 }
 .footer a {
@@ -99,10 +156,17 @@ background-color: var(--light-bg);
     color: var(--white);
 }
 .contacts-style a {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
 color: rgba(255, 255, 255, 0.6);
+
 }
-.contacts-style a:hover 
-.contacts-style a:focus {
+.contacts-style a:hover  {
+    color: var(--accent-cl);
+
+}
+.contacts-style a:focus  {
     color: var(--accent-cl);
 
 }
@@ -110,6 +174,9 @@ color: rgba(255, 255, 255, 0.6);
     background-color: var(--white-bg);
 }
 .portfolio-nav a {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
     color: var(--black);
 }
 .portfolio-nav a:hover {
@@ -118,8 +185,20 @@ color: rgba(255, 255, 255, 0.6);
  
 .portfolio-nav a:focus {
     color: var(--accent-cl);
+
+}
+.portfolio-nav .link.current {
+    color: var(--accent-cl);
+}
+.contacts-header {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
 }
 .portfolio-menu {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
     color: var(--black);
     background-color: var(--light-bg);
 }
@@ -128,15 +207,23 @@ color: rgba(255, 255, 255, 0.6);
 }
 .portfolio-menu:hover {
     color:  var(--blue);
-
+}
+.portfolio-menu:focus {
+    color:  var(--blue);
 }
 .examples-menu {
     background-color: var(--light-bg);
 }
 .examples-title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
     color: var(--black);
 }
 .examples-item {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
     color: var(--main-text-cl);
 }
 
