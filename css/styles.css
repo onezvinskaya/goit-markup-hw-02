@@ -1,0 +1,151 @@
+:root {
+  --main-text-cl: #757575;
+  --accent-cl: #2196F3;
+  --black: #212121;
+  --gray:#757575;
+  --white: #ffffff;
+  --dark-bg:#2F303A;
+  --light-bg: #E5E5E5;
+  --white-bg:#FFFFFF;
+  --light-grey-bg:#F5F4FA;
+  --blue:#2196F3;
+}
+
+body {
+  color: var(--main-text-cl);
+  background-color: var(--light-bg);
+}
+ul {
+    list-style: none;
+}
+
+.webstudio-header {
+    background-color: var(--white-bg);
+
+}
+.logo-header {
+    color: var(--black);
+}
+
+.logo-colored {
+    color: var(--blue);
+}
+
+.site-nav a {
+    color: var(--black);
+}
+.site-nav a:hover {
+    color: var(--accent-cl);
+}
+.contacts-header a {
+    color: var(--gray);
+}
+.contacts-header a:hover {
+    color: var(--blue);
+}
+
+.main-section {
+    color: var(--white-bg);
+    background-color: var(--dark-bg);
+}
+
+.main-title{
+
+}
+.btn {
+
+}
+.advantages-list {
+background-color: var(--light-bg);
+}
+.advantages-title {
+    color: var(--black);
+}
+.advantages-item {
+    color: var(--main-text-cl);
+}
+
+.directions {
+    background-color: var(--light-bg);
+}
+.directions-title {
+    color:  var(--black);
+}
+.team-section {
+    background-color: var(--light-grey-bg);
+}
+.team-title {
+    color: var(--black);
+}
+.team-member {
+    color: var(--black);
+}
+.team-item {
+    color: var(--main-text-cl);
+}
+.footer {
+    background-color: var(--dark-bg);
+}
+.logo-footer {
+    color: var(--white);
+}
+.footer a {
+    color: var(--white);
+}
+.address-geo {
+    color: var(--white);
+}
+.contacts-style a {
+color: rgba(255, 255, 255, 0.6);
+}
+.contacts-style a:hover {
+    color: var(--accent-cl);
+
+}
+.portfolio-header{
+    background-color: var(--white-bg);
+}
+.portfolio-nav a {
+    color: var(--black);
+}
+.portfolio-nav a:hover {
+    color: var(--accent-cl);
+}
+.portfolio-menu {
+    color: var(--black);
+    background-color: var(--light-bg);
+}
+.portfolio-menu a {
+    color: var(--black);
+}
+.portfolio-menu:hover {
+    color:  var(--blue);
+
+}
+.examples-menu {
+    background-color: var(--light-bg);
+}
+.examples-title {
+    color: var(--black);
+}
+.examples-item {
+    color: var(--main-text-cl);
+}
+
+
+
+
+
+    /*цвет заголовков
+ #212121
+/* цвет текста #757575;
+/*цвет текста при ховере #2196F3;
+/* темный цвет фона #2F303A;
+/* фон хедера #FFFFFF
+/* фон секций о преимуществе и направлениях, мейна вебстудии #E5E5E5
+/* фон секции о команде #F5F4FA
+/* акцент фона кнопки #2196F3
+/* цвет текста адреса и телефон в футере rgba(255, 255, 255, 0.6);
+/*цвет заголовка героя #FFFFFF
+
+
